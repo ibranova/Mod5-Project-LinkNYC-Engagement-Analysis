@@ -1,2 +1,2 @@
-# Mod5-Project-LinkNYC-Engagement-Analysis
-Analyzing LinkNYC Wi-Fi kiosk usage data to uncover engagement, retention, and equity trends that support smarter ad placements and digital inclusion across New York City.
+# LinkNYC Engagement Analysis
+LinkNYC Engagement Analysis examines how New Yorkers interact with the city’s free public Wi-Fi kiosks, known as LinkNYC. Using weekly usage and location data, this project uncovers patterns in engagement, activation, and retention to help the City’s Advertising and Partnerships Team optimize ad placements and sponsorship timing. The analysis highlights when and where kiosks attract the most engagement, revealing insights into usage behavior, seasonal trends, and digital equity gaps.
