@@ -59,8 +59,7 @@ Findings:
 Flagged kiosks that were newly installed or replaced during the **Link5G expansion (2022–Present)**. Mapped both categories to show replacement trends:
 - **Original LinkNYC kiosks (2016–2021)** → concentrated in Manhattan.
 - **Link5G kiosks (2022–Present)** → focus shifted toward Bronx, Queens, and Brooklyn.
-<img width="953" height="363" alt="Screenshot 2025-10-15 at 10 35 09 PM" src="https://github.com/user-attachments/assets/6b98b206-1787-44bd-a662-0707a537e550" />
-
+![UniqueClientPerWeek](/images/kiosk_distribution_map.png)
 
 📍This shift reflects a policy pivot toward equity: bringing better coverage and ad reach to underserved areas.
 
@@ -80,11 +79,10 @@ Flagged kiosks that were newly installed or replaced during the **Link5G expansi
 - **Usage patterns show steady weekly engagement**, with spikes during certain weeks — suggesting external factors (e.g., tourism or weather) affect kiosk demand.
 - **Unique clients** (weekly active users) and sessions rise and fall together, confirming that total engagement is driven mostly by user reach rather than session frequency alone.
 
-![UniqueClientPerWeek](/images/weekly_unique_clients.png)
+![UniqueClientPerWeek](/images/UniqueClientPerWeek.png)
 
 - **Data transfer (TB downloaded/uploaded)** trends closely follow session counts, indicating sessions remain consistent in average intensity across time.
-<img width="627" height="470" alt="Screenshot 2025-10-15 at 10 59 55 PM" src="https://github.com/user-attachments/assets/3a79bfd4-2a42-41b2-92bc-650eba818580" />
-
+![UniqueClientPerWeek](/images/AVG_dataUsage_per_Week.png)
 
 - **Outlier weeks** (detected via IQR) correspond to potential event-driven surges, worth tagging for future KPI or campaign analysis.
 - No strong anomalies in session length were found, though some small fluctuations suggest seasonal behavior.
@@ -293,15 +291,34 @@ If additional, more granular data were available — such as kiosk-level or user
 - **Equity impact analysis** to assess whether new kiosk installations under Link5G achieve balanced coverage across neighborhoods.
 
 ## Repository Structure
+```
 /linknyc-growth
-├─ data/              
+├─ data/
+│  ├─ clean
+│  │  ├─ LinkNYC_Weely_Usage_cleaned_2022-current.csv
+│  │  ├─ LinkNYC_Weely_Usage_cleaned_20251008-current.csv
+│  │  ├─ LinkNYC_location_cleaned_20251008.csv
+│  ├─ raw
+│  │  ├─ LinkNYC_Weely_Usage_20251008.csv
+│  │  ├─ LinkNYC_location_20251008.csv
 ├─ notebooks/
 │  ├─ 01_eda_and_kpis.ipynb
 │  ├─ 02_features_and_funnel.ipynb
 │  └─ 03_cohorts_rfm_and_roi.ipynb
-├─ images/      # funnel.png, cohorts.png, rfm_visual.png
+│  └─ 01_eda_weeklyUsage_and_kpis.ipynb
+│  └─ EDA_2022-current.ipynb
+├─ images/      
+│  └─ funnel_official.png
+│  └─ kiosk_installations_per_year.png
+│  └─ density_mapbox.png
+│  └─ weekly_session_overTime.png
+│  └─ average_usage_perSession.png
+│  └─ RFM_scatter_plot.png
+│  └─ Cohort_heatmap.png
+│  └─ AVG_dataUsage_per_week.png
 ├─ pitch_deck.pdf
 └─ README.md
+```
 
 
 
