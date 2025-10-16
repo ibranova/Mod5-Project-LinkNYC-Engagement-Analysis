@@ -1,6 +1,7 @@
 # Digital Access in NYC: The LinkNYC 5G Analysis
 *Analyzing LinkNYC 5G Engagement: How the 5G Rollout Influenced Public Wi-Fi Usage Across New York City*
 ## Project Owner: [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187/) & [Ibrahima Diallo](https://www.linkedin.com/in/ibranova/)
+### Project Management Board: [Trello](https://mod5-prj.atlassian.net/jira/core/projects/MOD5/board?filter=&groupBy=status)
 ## Overview
 - This project analyzes LinkNYC’s weekly Wi-Fi kiosk usage data to uncover trends in engagement, activation, and retention following the introduction of 5G kiosks in New York City. The goal is to determine whether overall usage and engagement quality have improved since the 5G rollout and to identify when audiences are most active.
 - Our stakeholder is the City Advertising and Partnerships Team, which collaborates with NYC’s Office of Technology and Innovation (OTI) and CityBridge to manage ad placements and sponsorships on LinkNYC kiosks. They care about understanding how and when New Yorkers engage with the kiosks to optimize ad exposure, sponsorship timing, and return on investment.
@@ -231,7 +232,7 @@ This segmentation reframes raw usage into a practical ROI map for city advertise
 
 #### Recommendations for Stakeholders:
 
-![ScarterPlot](/images/RFM_Scartter_plot.png)
+![ScarterPlot](/images/RFM_scatter_plot.png)
 
 - Prioritize `Champion` kiosks or periods for premium ad inventory since they deliver the most consistent audience visibility. Re-engage “Dormant” segments with localized campaigns or technical checks. Use “At-Risk” zones for experimentation and community engagement — pilot equity initiatives, multilingual outreach, or local content to build trust and awareness.
 
